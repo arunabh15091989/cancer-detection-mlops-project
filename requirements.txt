@@ -1,0 +1,9 @@
+# MLOps Libraries
+mlflow
+dvc
+tensorflow-cpu
+scikit-learn
+streamlit
+numpy
+pandas==1.2.0
+matplotlib
