@@ -1,0 +1,6 @@
+outs:
+- md5: ad81b3682cbf7363cf0283bae17304c6.dir
+  size: 41647052
+  nfiles: 2
+  hash: md5
+  path: cancer_images
