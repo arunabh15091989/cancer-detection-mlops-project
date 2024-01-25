@@ -2,17 +2,19 @@
 import mlflow
 import mlflow.tensorflow
 import tensorflow as tf
+import numpy as np
 from tensorflow.keras import layers, models
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-# Load and preprocess the BreakHis dataset
+# Load and preprocess the  dataset
 # (You may need to adapt this code based on the dataset structure)
 # ...
 
 # Split the dataset into training and testing sets
 # ...
-
+train_image_path = "data/cancer_detection/train/"
+test_image_path = "data/cancer_detection/test/"
 # Build a CNN model
 model = models.Sequential([
     layers.Conv2D(32, (3, 3), activation='relu', input_shape=(img_height, img_width, 3)),
